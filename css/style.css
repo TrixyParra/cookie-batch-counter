@@ -1,0 +1,97 @@
+/* Colors Used 
+#fff 
+#2d0c03cb 
+firebrick 
+rgb(226, 38, 38) 
+rgb(102, 148, 11) 
+rgb(133, 199, 2) 
+rgba(255, 255, 255, 0.315) 
+*/ 
+
+* {
+    box-sizing: border-box; 
+}
+
+body {
+    margin: 0; 
+    text-align: center; 
+    font-weight: bold; 
+}
+
+/* Counter */ 
+section {
+    background-image: url("/img/cookies.jpg"); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    /* height: 100vh;  */
+    padding: 20px; 
+} 
+
+.text-container {
+    /* background-color: rgba(0, 0, 0, 0.75);  */
+    background-color: #2d0c03cb; 
+    border: 10px double firebrick; 
+    max-width: 400px; 
+    padding: 20px; 
+    margin: 70px auto; 
+
+}
+
+h1 {
+    color: #fff; 
+    font-size: 40px;
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+} 
+
+h2 {
+    color: #fff; 
+    font-size: 40px; 
+    margin-top: 0;
+} 
+
+button {
+    color: #fff; 
+    font-weight: bolder; 
+    letter-spacing: 0.5px; 
+    border: none; 
+    width: 200px; 
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    margin-bottom: 10px; 
+    border-radius: 50px; 
+    cursor: pointer; 
+} 
+
+#increment-btn {
+    background: firebrick;
+}
+
+#increment-btn:hover {
+    background-color: rgb(226, 38, 38);
+}
+
+#save-btn {
+    background: rgb(102, 148, 11); 
+} 
+
+#save-btn:hover {
+    /* background-color: yellowgreen;  */
+    background: rgb(133, 199, 2); 
+} 
+
+#saved-entries {
+    color: #fff; 
+    font-weight: bolder;
+} 
+/* End of Counter */ 
+
+
+/* Footer */
+footer {
+    color: rgba(255, 255, 255, 0.315); 
+    background-color: firebrick; 
+    padding: 1px; 
+} 
+/* End of Footer */ 
