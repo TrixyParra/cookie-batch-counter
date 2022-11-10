@@ -20,7 +20,7 @@ body {
 
 /* Counter */ 
 section {
-    background-image: url("/img/cookies.jpg"); 
+    background-image: url("../img/cookies.jpg"); 
     background-size: cover; 
     background-repeat: no-repeat; 
     background-position: center; 
