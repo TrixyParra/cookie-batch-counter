@@ -16,7 +16,7 @@ body {
     margin: 0;
     background-image: url("../img/cookies.jpg"); 
     background-size: cover; 
-    background-repeat: no-repeat; 
+    /* background-repeat: no-repeat;  */
     background-position: center; 
     text-align: center; 
     font-weight: bold; 
@@ -25,16 +25,16 @@ body {
 /* Counter */ 
 section {
     padding: 20px; 
+    margin: 100px auto; 
 } 
 
 .text-container {
     /* background-color: rgba(0, 0, 0, 0.75);  */
     background-color: #2d0c03cb; 
-    border: 10px double firebrick; 
+    border: 10px double #b83d02; 
     max-width: 400px; 
     padding: 20px; 
-    margin: 100px auto; 
-
+    margin: 0 auto; 
 }
 
 h1 {
@@ -47,7 +47,7 @@ h1 {
 h2 {
     color: #fff; 
     font-size: 40px; 
-    margin-top: 0;
+    margin-top: 20px;
 } 
 
 button {
@@ -64,20 +64,26 @@ button {
 } 
 
 #increment-btn {
-    background: firebrick;
+    /* background: firebrick; */
+    /* background-color: #b83d02; */
+    background-color: #d45508;
 }
 
 #increment-btn:hover {
-    background-color: rgb(226, 38, 38);
+    /* background-color: rgb(226, 38, 38); */
+    background-color: #ff6200;
 }
 
 #save-btn {
-    background: rgb(102, 148, 11); 
+    /* background: rgb(102, 148, 11);  */
+    /* background-color: #b83d02; */
+    background: firebrick;
 } 
 
 #save-btn:hover {
     /* background-color: yellowgreen;  */
-    background: rgb(133, 199, 2); 
+    /* background: rgb(133, 199, 2);  */
+    background-color: rgb(226, 38, 38);
 } 
 
 #saved-entries {
@@ -89,8 +95,8 @@ button {
 
 /* Footer */
 footer {
-    color: rgba(255, 255, 255, 0.315); 
-    background-color: firebrick; 
+    color: rgba(255, 255, 255, 0.699); 
+    /* background-color: #94391e;  */
     padding: 1px; 
 } 
 /* End of Footer */ 
