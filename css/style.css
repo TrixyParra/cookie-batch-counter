@@ -1,11 +1,13 @@
 /* Colors Used 
-#fff 
 #2d0c03cb 
+#b83d02 
+#fff 
+#d45508 
+#ff6200 
 firebrick 
 rgb(226, 38, 38) 
-rgb(102, 148, 11) 
-rgb(133, 199, 2) 
-rgba(255, 255, 255, 0.315) 
+rgba(255, 255, 255, 0.699) 
+#94391e 
 */ 
 
 * {
@@ -29,7 +31,6 @@ section {
 } 
 
 .text-container {
-    /* background-color: rgba(0, 0, 0, 0.75);  */
     background-color: #2d0c03cb; 
     border: 10px double #b83d02; 
     max-width: 400px; 
@@ -64,25 +65,18 @@ button {
 } 
 
 #increment-btn {
-    /* background: firebrick; */
-    /* background-color: #b83d02; */
     background-color: #d45508;
 }
 
 #increment-btn:hover {
-    /* background-color: rgb(226, 38, 38); */
     background-color: #ff6200;
 }
 
 #save-btn {
-    /* background: rgb(102, 148, 11);  */
-    /* background-color: #b83d02; */
     background: firebrick;
 } 
 
 #save-btn:hover {
-    /* background-color: yellowgreen;  */
-    /* background: rgb(133, 199, 2);  */
     background-color: rgb(226, 38, 38);
 } 
 
@@ -98,7 +92,6 @@ footer {
     color: rgba(255, 255, 255, 0.699); 
     background-color: #94391e; 
     padding: 1px; 
-    /* margin-bottom: -300px; */
 } 
 /* End of Footer */ 
 
@@ -111,8 +104,5 @@ footer {
     section {
         margin: 130px auto; 
     } 
-    /* footer { 
-        margin-bottom: -200px;
-    }  */
 } 
 /* End of Media Queries */ 
