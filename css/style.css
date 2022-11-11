@@ -13,18 +13,17 @@ rgba(255, 255, 255, 0.315)
 }
 
 body {
-    margin: 0; 
-    text-align: center; 
-    font-weight: bold; 
-}
-
-/* Counter */ 
-section {
+    margin: 0;
     background-image: url("../img/cookies.jpg"); 
     background-size: cover; 
     background-repeat: no-repeat; 
     background-position: center; 
-    /* height: 100vh;  */
+    text-align: center; 
+    font-weight: bold; 
+} 
+
+/* Counter */ 
+section {
     padding: 20px; 
 } 
 
