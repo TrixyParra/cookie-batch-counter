@@ -16,7 +16,7 @@ body {
     margin: 0;
     background-image: url("../img/cookies.jpg"); 
     background-size: cover; 
-    /* background-repeat: no-repeat;  */
+    background-repeat: no-repeat; 
     background-position: center; 
     text-align: center; 
     font-weight: bold; 
@@ -98,15 +98,21 @@ footer {
     color: rgba(255, 255, 255, 0.699); 
     background-color: #94391e; 
     padding: 1px; 
-    margin-bottom: -300px;
+    /* margin-bottom: -300px; */
 } 
 /* End of Footer */ 
 
 
 /* Media Queries */
 @media (max-width: 500px) {
+    body {
+        background-repeat: repeat; 
+    } 
     section {
         margin: 130px auto; 
+    } 
+    footer { 
+        margin-bottom: -200px;
     } 
 } 
 /* End of Media Queries */ 
