@@ -16,7 +16,7 @@ body {
     margin: 0;
     background-image: url("../img/cookies.jpg"); 
     background-size: cover; 
-    background-repeat: no-repeat; 
+    /* background-repeat: no-repeat;  */
     background-position: center; 
     text-align: center; 
     font-weight: bold; 
