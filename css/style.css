@@ -100,3 +100,12 @@ footer {
     padding: 1px; 
 } 
 /* End of Footer */ 
+
+
+/* Media Queries */
+@media (max-width: 500px) {
+    section {
+        margin: 150px auto; 
+    } 
+} 
+/* End of Media Queries */ 
