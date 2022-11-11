@@ -104,7 +104,7 @@ footer {
 
 
 /* Media Queries */
-@media (max-width: 500px) {
+/* @media (max-width: 500px) {
     body {
         background-repeat: repeat; 
     } 
@@ -114,5 +114,5 @@ footer {
     /* footer { 
         margin-bottom: -200px;
     }  */
-} 
+}  */
 /* End of Media Queries */ 
